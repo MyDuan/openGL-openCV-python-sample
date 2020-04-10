@@ -125,6 +125,8 @@ def draw_gl_scene():
     glVertex3f(1.0, 1.0, 1.0)
     glVertex3f(1.0, -1.0, 1.0)
     glVertex3f(1.0, -1.0, -1.0)
+    
+    glColor3f(1.0, 1.0, 1.0)
     glEnd()
     glPopMatrix()
     X_AXIS = X_AXIS - 0.30
